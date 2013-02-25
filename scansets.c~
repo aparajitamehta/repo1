@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+	char c,s[100];
+	s[0] = 0;
+
+	scanf("%[^\n]",s);
+	printf("%s\n",s);
+c=getchar();
+	scanf("%[(a-z)]",s);
+	printf("%s\n",s);
+
+	scanf("%[^(a-z)]",s);
+	printf("%s\n",s);
+
+	return 0;
+}
